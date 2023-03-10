@@ -43,5 +43,31 @@ class ProductRepoTest {
         assertEquals(Collections.emptyMap(), actual);
     }
 
+    @Test
+    void getProduktTest() {
+        //GIVEN
+        Product product1 = new Product("B10", "Becher");
+        Map<String, Product>productTestMap = new HashMap<>();
+        productTestMap.put(product1.getId(), product1);
+        ProductRepo productRepo1 = new ProductRepo(productTestMap);
+        //WHEN
+        Product actual = productRepo1.get("B10");
+        //THEN
+        assertEquals(product1, actual);
+    }
+
+    @Test
+    void getNotProduktTest() {
+        //GIVEN
+        Product product1 = new Product("B10", "Becher");
+        Map<String, Product> productTestMap = new HashMap<>();
+        productTestMap.put(product1.getId(), product1);
+        ProductRepo productRepo1 = new ProductRepo(productTestMap);
+        //WHEN
+        Product actual = productRepo1.get("B20");
+        //THEN
+        assertNull(actual);
+    }
+
 
 }

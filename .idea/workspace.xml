@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fea008b-12b1-4aa1-a20d-bb1279a6f689" name="Changes" comment="added ProductRepo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductRepoTest.java" afterDir="false" />
+    <list default="true" id="0fea008b-12b1-4aa1-a20d-bb1279a6f689" name="Changes" comment="added Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductRepoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,27 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepoTest.returnNoProdukts">
+  <component name="RunManager" selected="JUnit.ProductRepoTest.getNotProduktTest">
+    <configuration name="ProductRepoTest.getNotProduktTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OrderSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductRepoTest" />
+      <option name="METHOD_NAME" value="getNotProduktTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepoTest.getProduktTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OrderSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductRepoTest" />
+      <option name="METHOD_NAME" value="getProduktTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductRepoTest.returnAllProdukts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OrderSystem" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,6 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepoTest.getNotProduktTest" />
+        <item itemvalue="JUnit.ProductRepoTest.getProduktTest" />
         <item itemvalue="JUnit.ProductRepoTest.returnNoProdukts" />
         <item itemvalue="JUnit.ProductRepoTest.returnAllProdukts" />
       </list>
@@ -99,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678438657536</updated>
-      <workItem from="1678438658818" duration="7351000" />
+      <workItem from="1678438658818" duration="8863000" />
     </task>
     <task id="LOCAL-00001" summary="N/A">
       <created>1678438853122</created>
@@ -129,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678442625211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added Test">
+      <created>1678446686412</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678446686412</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +179,7 @@
     <MESSAGE value="added empty Main + Product as Class complete" />
     <MESSAGE value="Product int zu String geändert" />
     <MESSAGE value="added ProductRepo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ProductRepo" />
+    <MESSAGE value="added Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Test" />
   </component>
 </project>
