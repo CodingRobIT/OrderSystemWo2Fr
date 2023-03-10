@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fea008b-12b1-4aa1-a20d-bb1279a6f689" name="Changes" comment="added Test">
+    <list default="true" id="0fea008b-12b1-4aa1-a20d-bb1279a6f689" name="Changes" comment="added anothern Test. ProductRepoTest Complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductRepoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -120,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678438657536</updated>
-      <workItem from="1678438658818" duration="8863000" />
+      <workItem from="1678438658818" duration="9555000" />
     </task>
     <task id="LOCAL-00001" summary="N/A">
       <created>1678438853122</created>
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678446686412</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added anothern Test. ProductRepoTest Complete">
+      <created>1678448139906</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678448139906</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +187,7 @@
     <MESSAGE value="Product int zu String geändert" />
     <MESSAGE value="added ProductRepo" />
     <MESSAGE value="added Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Test" />
+    <MESSAGE value="added anothern Test. ProductRepoTest Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="added anothern Test. ProductRepoTest Complete" />
   </component>
 </project>
