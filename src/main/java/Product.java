@@ -1,21 +1,21 @@
 public class Product {
 
-    int id;
-    String name;
+    private String id;
+    private String name;
 
-    private Product() {
+    public Product() {
     }
 
-    private Product(int id, String name) {
+    public Product(String id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -32,13 +32,13 @@ public class Product {
         if (this == o) return true;
         if (!(o instanceof Product product)) return false;
 
-        if (getId() != product.getId()) return false;
+        if (getId() != null ? !getId().equals(product.getId()) : product.getId() != null) return false;
         return getName() != null ? getName().equals(product.getName()) : product.getName() == null;
     }
 
     @Override
     public int hashCode() {
-        int result = getId();
+        int result = getId() != null ? getId().hashCode() : 0;
         result = 31 * result + (getName() != null ? getName().hashCode() : 0);
         return result;
     }
@@ -46,7 +46,7 @@ public class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "id=" + id +
+                "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 '}';
     }
