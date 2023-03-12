@@ -1,5 +1,6 @@
-public class Product {
+import java.util.Objects;
 
+public class Product {
     private String id;
     private String name;
 
@@ -28,28 +29,28 @@ public class Product {
     }
 
     @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Product product)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
 
-        if (getId() != null ? !getId().equals(product.getId()) : product.getId() != null) return false;
-        return getName() != null ? getName().equals(product.getName()) : product.getName() == null;
+        Product product = (Product) o;
+
+        if (!Objects.equals(id, product.id)) return false;
+        return Objects.equals(name, product.name);
     }
 
     @Override
     public int hashCode() {
-        int result = getId() != null ? getId().hashCode() : 0;
-        result = 31 * result + (getName() != null ? getName().hashCode() : 0);
+        int result = id != null ? id.hashCode() : 0;
+        result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;
     }
-
-    @Override
-    public String toString() {
-        return "Product{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }
-
-
